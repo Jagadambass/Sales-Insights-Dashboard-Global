@@ -1,1 +1,100 @@
+# 📁 Excel File Notes — Superstore / Global Superstore Dataset
+
+## 📊 Dataset Name
+
+Global Superstore / SuperStore Sales Dataset
+
+## 🎯 Project Purpose
+
+This Excel dataset is used for Sales and Business Performance Analysis. It supports data analytics and Power BI dashboard development for revenue, profit, customer, and regional performance insights.
+
+---
+
+## 🗂️ Data Overview
+
+The dataset contains transactional retail sales records including:
+
+* Order details
+* Customer information
+* Product categories
+* Regional data
+* Sales and profit metrics
+* Shipping details
+
+Each row represents one order line item.
+
+---
+
+## 🧾 Main Columns (Typical Fields)
+
+* Order ID — Unique order identifier
+* Order Date — Date of purchase
+* Ship Date — Date shipped
+* Ship Mode — Shipping type (Standard, First Class, etc.)
+* Customer ID — Unique customer code
+* Customer Name — Buyer name
+* Segment — Consumer / Corporate / Home Office
+* Country — Country name
+* City — City name
+* State — State name
+* Region — Region grouping
+* Product ID — Unique product code
+* Category — Furniture / Office Supplies / Technology
+* Sub-Category — Product sub group
+* Product Name — Item description
+* Sales — Sales amount
+* Quantity — Units sold
+* Discount — Discount applied
+* Profit — Profit amount
+
+---
+
+## 🧹 Excel Data Cleaning Steps Performed
+
+* Checked for missing values
+* Removed duplicate rows
+* Fixed date formats (Order Date, Ship Date)
+* Standardized category & segment names
+* Verified numeric columns (Sales, Profit, Discount, Quantity)
+* Removed blank records
+* Ensured consistent region and state naming
+
+---
+
+## 📐 Derived Columns Created (if used)
+
+* Profit Margin = Profit / Sales
+* Delivery Days = Ship Date − Order Date
+* Year / Month from Order Date
+* Sales After Discount
+* Order Size Category (Low / Medium / High)
+
+---
+
+## 📈 Analysis Possible from Dataset
+
+* Total Sales & Profit Analysis
+* Region-wise performance
+* Category & Sub-category contribution
+* Top products by sales
+* Customer segment analysis
+* Discount vs Profit impact
+* Monthly & yearly trends
+* Shipping mode efficiency
+
+---
+
+## 🧮 Excel Features Used
+
+* Pivot Tables
+* Pivot Charts
+* Filters & Slicers
+* Conditional Formatting
+* SUMIFS / COUNTIFS
+* Lookup functions (XLOOKUP / VLOOKUP)
+* Date grouping (Month / Year)
+
+---
+
+
 
