@@ -1,1 +1,132 @@
 
+---
+
+# 📊 Power BI Dashboard Notes
+
+## 1️⃣ Competitive Marketing Analysis Dashboard
+
+Project Objective:
+This dashboard analyzes competitive marketing performance across channels, campaigns, and regions to identify high-performing strategies and optimization opportunities.
+
+ Data Preparation:
+
+ Cleaned and transformed raw marketing data using Power Query
+ Removed duplicates and null values
+ Standardized campaign and channel names
+ Created calculated columns for ROI, Conversion Rate, and Cost per Lead
+
+Key KPIs:
+
+ Total Campaign Spend
+ Total Leads Generated
+ Conversion Rate %
+ ROI %
+ Cost per Acquisition (CPA)
+
+Visuals Used:
+
+ KPI Cards for high-level metrics
+ Bar charts for channel performance comparison
+ Line charts for campaign trends over time
+ Funnel chart for lead conversion stages
+ Slicers for Channel, Region, Campaign Type
+
+Insights Delivered:
+
+ Identified top ROI channels
+ Highlighted low-performing campaigns
+ Compared spend vs conversion efficiency
+ Supported marketing budget optimization
+
+---
+
+## 2️⃣ General Business Dashboard (Dashboard.pbix)
+
+Project Objective:
+To create an interactive business performance dashboard showing revenue, profit, and operational metrics for decision-making.
+
+Data Preparation:
+
+ Performed data cleaning in Power Query
+ Built relationships between fact and dimension tables
+ Created Date table for time intelligence
+ Defined calculated measures using DAX
+
+Key KPIs:
+
+ Total Revenue
+ Total Profit
+ Total Orders
+ Profit Margin %
+ Growth %
+
+Visuals Used:
+
+ KPI cards
+ Clustered bar charts
+ Trend line charts (monthly/yearly)
+ Matrix tables with drill-down
+ Slicers for Date, Category, Region
+
+DAX Measures Examples:
+
+ Total Sales = SUM(Sales[Amount])
+ Profit Margin = DIVIDE([Profit],[Sales])
+ YoY Growth measures
+
+Insights Delivered:
+
+ Monthly and yearly performance trends
+ Category-wise contribution
+ Region-wise profitability
+ Growth tracking over time
+
+---
+
+## 3️⃣ Global Super Store Sales Analysis Dashboard
+
+Project Objective:
+To analyze global retail sales performance by region, category, segment, and shipping mode using interactive Power BI dashboards.
+
+Data Preparation:
+
+ Cleaned sales dataset using Power Query
+ Converted data types and formatted fields
+ Created relationships between Orders, Customers, and Products
+ Built calculated columns and DAX measures
+
+Key KPIs:
+
+ Total Sales
+ Total Profit
+ Total Orders
+ Average Order Value
+ Profit Ratio %
+
+Visuals Used:
+
+ Sales & Profit KPI cards
+ Region-wise sales map
+ Category & Sub-category bar charts
+ Segment-wise donut charts
+ Monthly sales trend line chart
+ Top 10 products table
+ Slicers for Region, Category, Segment, Year
+
+Advanced Features:
+
+ Drill-through reports for product-level analysis
+ DAX measures for Profit %, Running Total
+ Time intelligence using Date hierarchy
+ Interactive filtering across visuals
+
+Insights Delivered:
+
+ Best and worst performing regions
+ High-profit product categories
+ Segment contribution to revenue
+ Seasonal sales trends
+
+---
+
+
